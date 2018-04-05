@@ -1,0 +1,21 @@
+FROM gitlab/gitlab-runner:alpine
+
+MAINTAINER FS. <fserafini@itnow.es>
+
+RUN apk add --update --no-cache \
+    python \
+    python-dev \
+    py-pip \
+    tzdata
+
+RUN pip --no-cache-dir install -U \
+    pip \
+    six \
+    selenium \
+    unidecode \
+    requests \
+    robotframework \
+    robotframework-appiumlibrary \
+    robotframework-seleniumlibrary \
+    robotframework-browsermobproxylibrary \
+    robotframework-requests
