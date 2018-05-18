@@ -14,6 +14,7 @@ RUN pip --no-cache-dir install -U \
     selenium \
     unidecode \
     requests \
+    influxdb \
     robotframework \
     robotframework-appiumlibrary \
     robotframework-seleniumlibrary \
