@@ -6,6 +6,7 @@ RUN apk add --update --no-cache \
     python \
     python-dev \
     py-pip \
+    curl-dev \
     tzdata
 
 RUN pip --no-cache-dir install -U \
@@ -15,7 +16,6 @@ RUN pip --no-cache-dir install -U \
     unidecode \
     requests \
     influxdb \
-    curl-dev \
     robotframework \
     robotframework-appiumlibrary \
     robotframework-seleniumlibrary \
