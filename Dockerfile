@@ -6,6 +6,7 @@ RUN apk add --update --no-cache \
     python \
     python-dev \
     py-pip \
+    curl \
     curl-dev \
     tzdata
 
