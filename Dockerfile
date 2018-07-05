@@ -8,6 +8,7 @@ RUN apk add --update --no-cache \
     py-pip \
     curl \
     curl-dev \
+    imagemagick \
     tzdata
 
 RUN pip --no-cache-dir install -U \
